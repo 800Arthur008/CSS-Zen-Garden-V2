@@ -126,6 +126,7 @@ body {
 }
 
 .gallery__grid {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -347,17 +348,25 @@ body {
         align-items: center;
     }
 
-    .about__item, .service__item, .news__item, .gallery__grid {
+    .about__item, .service__item, .news__item{
         max-width: 80%;
         justify-content: center;
         align-items: center;    
     }
 
+    .section--gallery{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .gallery__grid {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         margin-top: 20px;
         align-items: center;
+        padding: 10px;
     }
 
     .news__grid {
