@@ -1,6 +1,13 @@
+@font-face {
+    font-family: 'HarryP';
+    src: url('../fonts/HarryP-MVZ6w.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'HarryP', serif;
     background-image: url('https://staticg.sportskeeda.com/editor/2023/02/5db24-16761188466235-1920.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
@@ -34,7 +41,6 @@ body {
 .header__title {
     color: #d6af36; 
     font-size: 40px;
-    font-family: 'Times New Roman', serif;
 }
 
 .header__subtitle {
@@ -75,8 +81,8 @@ body {
 .intro__title {
     font-size: 45px;
     font-weight: 1000;
-    color: #000000;
-    font-family: 'Georgia', serif;
+    color: #d6af36;
+    font-family: 'HarryP', serif;
 }
 
 .intro__text {
@@ -178,10 +184,11 @@ body {
 .btn-more{
     margin-bottom: 10px;
     width: 200px;
-   background-color: #d6af36;
-   border-radius: 5px;
-   border: none;
-   color: #000000;
+    background-color: #d6af36;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    font-family: 'HarryP';
 }
 
 .btn-more:hover{
@@ -285,6 +292,7 @@ body {
 .form__label {
     display: block;
     margin-bottom: 8px;
+    font-size: 2em;
 }
 
 .form__input {
@@ -305,6 +313,9 @@ body {
     padding: 12px 25px;
     border: none;
     cursor: pointer;
+    font-family: 'HarryP';
+    font-weight: 700;
+    font-size: large;
 }
 
 .form__button:hover {
