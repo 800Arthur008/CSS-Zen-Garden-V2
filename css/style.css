@@ -22,6 +22,15 @@ body {
     text-align: center;
 }
 
+.header__container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .header__title {
     color: #d6af36; 
     font-size: 40px;
@@ -469,6 +478,10 @@ body {
         padding: 20px 40px;
     }
 
+    .header__container{
+        max-width: 230px;
+    }
+
     .header__title {
         font-size: 24px;
     }
@@ -535,6 +548,11 @@ body {
     .footer {
         background-size: 40px, 40px, cover;
         font-size: 12px;
+    }
+
+    .footer__text {
+        max-width: 250px;
+        margin: 0 auto;
     }
     
 }
